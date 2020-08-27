@@ -11,6 +11,12 @@
 |
 */
 
+
+Route::get('/news/{url}', 'News@show');
+
+Route::get('/news', 'News@index');
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+

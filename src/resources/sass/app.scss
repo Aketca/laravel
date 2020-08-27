@@ -4,5 +4,24 @@
 // Variables
 @import 'variables';
 
+//mixins
+@import "mixins/breakpoints";
+@import "mixins/clearfix";
+@import "mixins/capture";
+@import "mixins/heading";
+@import "mixins/item-img";
+@import "mixins/icon";
+@import "mixins/placeholder";
+@import "mixins/slider-fix";
+
+
+// base
+@import 'base';
+@import 'grid';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// layouts
+@import 'layouts/header';
+@import 'layouts/footer';
